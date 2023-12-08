@@ -32,7 +32,7 @@ const AdminRegistrationForm = () => {
     setEmail('');
     setPassword('');
     alert('Registration Successful Please Login.');
-    //window.location.reload();
+    window.location.reload();
     
     
   };
