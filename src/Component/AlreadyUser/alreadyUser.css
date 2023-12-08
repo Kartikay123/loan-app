@@ -1,0 +1,60 @@
+.btn-alreadyuser {
+
+    background: #1592e6;
+    background-image: -webkit-linear-gradient(top, #1592e6, #3987b8);
+    background-image: -moz-linear-gradient(top, #1592e6, #3987b8);
+    background-image: -ms-linear-gradient(top, #1592e6, #3987b8);
+    background-image: -o-linear-gradient(top, #1592e6, #3987b8);
+    background-image: linear-gradient(to bottom, #1592e6, #3987b8);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 7px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.btn-alreadyuser:hover {
+    background: blue;
+    background-image: -webkit-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: -moz-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: -ms-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: -o-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: linear-gradient(to bottom, #3cfa6b, #d934cb);
+    text-decoration: none;
+    cursor: pointer;
+}
+.repayment-schedule{
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.repayment-schedule h2{
+    margin-bottom: 10px;
+}
+.repayment-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    
+}
+.already{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+
+}
+.already h1{
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,82 @@
+.admin-page {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .admin-page h2{
+    margin-bottom: 20px;
+  }
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table tbody tr:hover {
+    background-color: #e2e2e2;
+  }
+  .btn {
+
+    background: #1592e6;
+    background-image: -webkit-linear-gradient(top, #1592e6, #3987b8);
+    background-image: -moz-linear-gradient(top, #1592e6, #3987b8);
+    background-image: -ms-linear-gradient(top, #1592e6, #3987b8);
+    background-image: -o-linear-gradient(top, #1592e6, #3987b8);
+    background-image: linear-gradient(to bottom, #1592e6, #3987b8);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 7px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: blue;
+    background-image: -webkit-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: -moz-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: -ms-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: -o-linear-gradient(top, #3cfa6b, #d934cb);
+    background-image: linear-gradient(to bottom, #3cfa6b, #d934cb);
+    text-decoration: none;
+    cursor: pointer;
+}
+.button-dist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Default styles for the table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Add any other styles you need for the table */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 950px) {
+  .user-table {
+      font-size: 0.8em; /* Decrease font size */
+      /* Adjust other styles for smaller screens */
+  }
+}

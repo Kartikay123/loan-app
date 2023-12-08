@@ -1,0 +1,46 @@
+.admin-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cart-login {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .cart-login h2 {
+    margin-bottom: 15px;
+  }
+  
+  .cart-item-login {
+    margin-bottom: 15px;
+  }
+  
+  .cart-item-login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .cart-item-login input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+
+  @media (max-width: 750px) {
+    .admin-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-login {
+        margin-top: 30px; /* Adjust spacing as needed */
+    }
+}
